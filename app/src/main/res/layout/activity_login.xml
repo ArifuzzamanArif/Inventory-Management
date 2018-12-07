@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/blackcurrant"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/login_imageView"
+        android:src="@drawable/logo_im"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:textColor="@color/wheat2"
+        android:text="Inventory Management" />
+
+    <TextView
+        android:id="@+id/loginTextView"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_transparent"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:text="Login Here" />
+
+
+    <EditText
+        android:backgroundTint="@android:color/holo_purple"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:id="@+id/loginUserName"
+        android:hint="Enter Your Email"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:backgroundTint="@android:color/holo_purple"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:id="@+id/loginPassword"
+        android:hint="Enter Your Password"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/loginButton"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background_transparent"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Login"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For Create a New Account"
+            android:textStyle="italic"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/signUpButton"
+            android:background="@drawable/background_transparent"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Sign Up"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

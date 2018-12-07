@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "219573631482",
+    "firebase_url": "https://inventory-management-b13aa.firebaseio.com",
+    "project_id": "inventory-management-b13aa",
+    "storage_bucket": "inventory-management-b13aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219573631482:android:212c890dbc6534c4",
+        "android_client_info": {
+          "package_name": "com.example.munnaf.inventorymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219573631482-gfh1m3m1a1teep6ldqnv72eu3m353icf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.munnaf.inventorymanagement",
+            "certificate_hash": "1971c241753599d411b7567057c7db9d04453745"
+          }
+        },
+        {
+          "client_id": "219573631482-ijcqrl1q1u62tk6lhpe94nq24rhq518d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy_gOk2SdJ7NCJ8K9scK1ma_Su_n5mYio"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219573631482-ijcqrl1q1u62tk6lhpe94nq24rhq518d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
